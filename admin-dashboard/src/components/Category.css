@@ -1,0 +1,117 @@
+.category-container {
+	width: 80vw;
+	padding: 0 15px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.category-icon {
+	font-size: 1.5rem;
+	margin-right: 10px;
+}
+
+.title {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.add-category-btn {
+	margin-left: 10px;
+	background-color: #6f42c1;
+}
+
+.search-bar {
+	margin-left: 1rem;
+	width: 480px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.category-table th,
+.category-table td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.category-table img {
+	display: block;
+	margin: 0 auto;
+}
+
+.category-table .btn-link {
+	color: #000;
+	padding: 0;
+	font-size: 1.25rem;
+}
+
+.category-table .btn-link:hover {
+	color: #6f42c1;
+}
+
+.category-table th {
+	background-color: #fff8b7;
+
+	font-weight: normal;
+}
+
+.category-table thead tr {
+	border-bottom: 2px solid #dee2e6;
+	margin-bottom: 12rem !important;
+}
+
+.modal-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: none;
+}
+
+.modal-title {
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+	color: #dc3545;
+}
+
+.modal-title .bi-exclamation-triangle-fill {
+	margin-right: 10px;
+}
+
+.modal-body {
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.modal-footer {
+	justify-content: center;
+	border-top: none;
+}
+
+.btn-confirm {
+	background-color: #6f42c1;
+	color: #fff;
+	border: none;
+}
+
+.btn-delete {
+	color: #6c757d;
+	border: 1px solid #6c757d;
+	background-color: #fff;
+}
+
+.btn-confirm:hover,
+.btn-confirm:focus {
+	background-color: #5a34a4;
+}
+
+.btn-delete:hover,
+.btn-delete:focus {
+	background-color: #e2e6ea;
+}

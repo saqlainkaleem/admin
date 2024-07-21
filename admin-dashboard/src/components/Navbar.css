@@ -1,0 +1,79 @@
+.custom-navbar .navbar-brand {
+	display: flex;
+	align-items: center;
+}
+
+.custom-navbar .navbar-brand img {
+	margin-right: 10px;
+	width: 220px;
+	height: 46px;
+	top: 29px;
+	left: 39px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.bg-purple {
+	background-color: #6f42c1 !important;
+}
+
+.bi-person-circle {
+	font-size: 1.5rem;
+	color: white;
+	width: 45px;
+	height: 45px;
+	top: 30px;
+	left: 1365px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.modal-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: none;
+}
+
+.modal-title {
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+	color: #dc3545;
+}
+
+.modal-title .bi-exclamation-triangle-fill {
+	margin-right: 10px;
+}
+
+.modal-body {
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.modal-footer {
+	justify-content: center;
+	border-top: none;
+}
+
+.btn-confirm {
+	background-color: #6f42c1;
+	color: #fff;
+	border: none;
+}
+
+.btn-delete {
+	color: #6c757d;
+	border: 1px solid #6c757d;
+	background-color: #fff;
+}
+
+.btn-confirm:hover,
+.btn-confirm:focus {
+	background-color: #5a34a4;
+}
+
+.btn-delete:hover,
+.btn-delete:focus {
+	background-color: #e2e6ea;
+}
